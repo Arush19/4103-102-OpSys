@@ -79,7 +79,7 @@ It is an error or exception condition generated within the currently running pro
 ####Interrupt
 Interrupt occurs due to some sort of event that is external to and independent of the currently running process. With an ordinary interrupt, control is first transferred to an interrupt handler, which does some basic housekeeping and then branches to an OS routine that is concerned with the particular type of interrupt that has occurred.
 
-###10. Three examples of interrupt:  The three examples of the interrupts are:
+###10. Three examples of interrupt are
 ####a. Clock interrupt
 The OS determines whether the currently running process has been executing for the maximum allowable unit of time, referred to as a time slice.
 
