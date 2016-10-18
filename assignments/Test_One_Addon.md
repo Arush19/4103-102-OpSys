@@ -1,18 +1,24 @@
-					         
+#Test-1 Helper	
+
 							
 ####Definitions:
 ###1. **Multi-tasking**
 It is a concept of performing multiple tasks over a certain period of time by executing them concurrently.
-Example: MultiFinder: It is an extension software for the Apple Macintosh’s classic Mac OS. It allows multiple application to be simultaneously resident in memory. A single mouse click switches between applications, and information from one application can be copied to another. 
+
+####Example
+MultiFinder: It is an extension software for the Apple Macintosh’s classic Mac OS. It allows multiple application to be simultaneously resident in memory. A single mouse click switches between applications, and information from one application can be copied to another. 
 ###2.	**Multi-programming** 
 It is a fundamental form of parallel processing in which several programs run at the same time on the single processor. 
 
-Example: 
+####Example
+Having multiple OS in one computer like Windows, Linux. 
 
 ###3.	**Multi-processing**
 It is the use of two or more centrdal processing units within a single computer system. 
 
-Example: 
+####Example
+
+
 
 ###4.	**Multi-threading**
 It is ability of an Operating system to support multiple, concurrent paths of execution within a single process. 
