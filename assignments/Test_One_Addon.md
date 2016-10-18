@@ -28,17 +28,20 @@ The trace instruction has the following syntax variations:
 This establishes setting as the current setting of the trace activities.
 ####b.	trace [VALUE] setting expression
 This establishes the value of settingExpression as the current setting of trace activities. The value keyword can be omitted in settingExpression does not begin with a symbol or literal string—i.e. it could start with a parenthesis.
-####c.	Trace
+####c.	trace
 When the trace instruction is entered without any additional text, trace activities are reset to default settings. 
 
 ###2.  Common events that lead to the creation of a process 
 In general-purpose systems, some way is needed to create processes as needed during operation. 
 There are four principal events led to processes creation.
 
-•	System initialization.
-•	Execution of a process Creation System calls by a running process.
-•	A user request to create a new process.
-•	Initialization of a batch job.
+#####.	System initialization.
+
+#####.	Execution of a process Creation System calls by a running process.
+
+#####.	A user request to create a new process.
+
+#####.	Initialization of a batch job.
 
 ###3. Preempting a process
 Preempting a process means a process which is executing and continue to execute, but it is taken over by the another process and is executed with higher priority.  
