@@ -30,7 +30,7 @@ HTTP/JEE servers/frameworks like vert.x, wildfly, tomcat, jetty uses multithread
 
 Computer games, exemplery multi-threaded processing.
 
-Answers to the questions: 
+##Answers to the questions: 
 ###1.	**Instruction trace**
 The trace instruction controls trace activities associated with the current procedure.
 
