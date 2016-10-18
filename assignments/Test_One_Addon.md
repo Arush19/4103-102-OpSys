@@ -7,31 +7,31 @@ It is a concept of performing multiple tasks over a certain period of time by ex
 
 ####Example
 MultiFinder: It is an extension software for the Apple Macintosh’s classic Mac OS. It allows multiple application to be simultaneously resident in memory. A single mouse click switches between applications, and information from one application can be copied to another. 
-###2.	**Multi-programming** 
+###2. **Multi-programming** 
 It is a fundamental form of parallel processing in which several programs run at the same time on the single processor. 
 
 ####Example
 Having multiple OS in one computer like Windows, Linux. 
 
-###3.	**Multi-processing**
+###3. **Multi-processing**
 It is the use of two or more central processing units within a single computer system. 
 
 ####Example
 Quad core(4 processors) and dual core systems(2 processors)
 
 
-###4.	**Multi-threading**
+###4. **Multi-threading**
 It is ability of an Operating system to support multiple, concurrent paths of execution within a single process. 
 
-####Example: 
-1. Long running applications like batch jobs
+####Example
+1.Long running applications like batch jobs
 
 2.HTTP/JEE servers/frameworks like vert.x, wildfly, tomcat, jetty uses multithreads along with NIO to achieve high throughput.
 
 3.Computer games, exemplery multi-threaded processing.
 
 ##Review Questions From Chapters 3 
-###1.	**Instruction trace**
+###1. Instruction trace
 The trace instruction controls trace activities associated with the current procedure.
 
 The trace instruction has the following syntax variations:
@@ -63,7 +63,7 @@ It involves moving part of all of a process from main memory to disk. when none 
 ###5.  Why does the figure 3.9b have two blocked states
 We need two blocked states to know the whether a process is waiting on an event and Whether a process has been swapped out of main memory.
 
-###6. Four characteristics of suspended process: 
+###6. Four characteristics of suspended process
 a. The process is not immediately available for execution.
 
 b. The process may or may not be waiting on an event. If it is, this blocked condition is independent of the suspend condition, and occurrence of the blocking event does not enable the process to be executed immediately. 
@@ -84,7 +84,7 @@ It consists of the contents of processor registers. While a process is running, 
 This is the additional information needed by the OS to control and coordinate the various active process.
 
 
-###8. Need of two modes i.e. user and kernel mode:  
+###8. Need of two modes i.e. user and kernel mode  
 ####User mode
 The less privileged mode is often referred to as user mode, because user programs typically would execute in this mode.
 
@@ -92,7 +92,7 @@ The less privileged mode is often referred to as user mode, because user program
 The more-privileged mode is referred to as control mode, control mode or kernel mode.We need these two modes to protect the OS and the key operating system tables, such as process control blocks, from interference from user programs.
 
 
-###9. Difference between an interrupt and a trap:
+###9. Difference between an interrupt and a trap
 ####Trap
 It is an error or exception condition generated within the currently running process. With a trap, the OS determines if the error or exception condition is fatal.
 
