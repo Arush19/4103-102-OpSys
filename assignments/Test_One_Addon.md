@@ -24,9 +24,9 @@ Answers to the questions:
 The trace instruction controls trace activities associated with the current procedure.
 
 The trace instruction has the following syntax variations:
-a.	trace setting: This establishes setting as the current setting of the trace activities.
-b.	trace [VALUE] setting expression: This establishes the value of settingExpression as the current setting of trace activities. The value keyword can be omitted in settingExpression does not begin with a symbol or literal string—i.e. it could start with a parenthesis.
-c.	Trace: When the trace instruction is entered without any additional text, trace activities are reset to default settings. 
+####a.	trace setting: This establishes setting as the current setting of the trace activities.
+####b.	trace [VALUE] setting expression: This establishes the value of settingExpression as the current setting of trace activities. The value keyword can be omitted in settingExpression does not begin with a symbol or literal string—i.e. it could start with a parenthesis.
+####c.	Trace: When the trace instruction is entered without any additional text, trace activities are reset to default settings. 
 
 ###2.  Common events that lead to the creation of a process: 
 In general-purpose systems, some way is needed to create processes as needed during operation. There are four principal events led to processes creation.
@@ -35,7 +35,8 @@ In general-purpose systems, some way is needed to create processes as needed dur
 •	A user request to create a new process.
 •	Initialization of a batch job.
 
-###3.  Preempting a process means a process which is executing and continue to execute, but it is taken over by the another process and is executed with higher priority.  
+###3. Preempting a process
+Preempting a process means a process which is executing and continue to execute, but it is taken over by the another process and is executed with higher priority.  
 
 ###4. Swapping
 It involves moving part of all of a process from main memory to disk. when none of the processes in main memory is in the Ready state, the OS swaps one of the blocked processes out on to disk into a suspend queue.
