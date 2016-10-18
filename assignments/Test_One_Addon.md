@@ -24,6 +24,11 @@ Quad core(4 processors) and dual core systems(2 processors)
 It is ability of an Operating system to support multiple, concurrent paths of execution within a single process. 
 
 Example: 
+Long running applications like batch jobs
+
+HTTP/JEE servers/frameworks like vert.x, wildfly, tomcat, jetty uses multithreads along with NIO to achieve high throughput.
+
+Computer games, exemplery multi-threaded processing.
 
 Answers to the questions: 
 ###1.	**Instruction trace**
@@ -50,12 +55,13 @@ There are four principal events led to processes creation.
 #####.	Initialization of a batch job.
 
 ###3. Preempting a process
-Preempting a process means a process which is executing and continue to execute, but it is taken over by the another process and is executed with higher priority.  
+Preempting a process means if a process which is executing and continue to execute, but it is taken over by the another process and is executed with higher priority.  
 
 ###4. Swapping
 It involves moving part of all of a process from main memory to disk. when none of the processes in main memory is in the Ready state, the OS swaps one of the blocked processes out on to disk into a suspend queue.
 
-###5.  Why does the figure 3.9b have two blocked states: 
+###5.  Why does the figure 3.9b have two blocked states
+We need two blocked states to know the whether a process is waiting on an event and Whether a process has been swapped out of main memory.
 
 ###6. Four characteristics of suspended process: 
 a. The process is not immediately available for execution.
