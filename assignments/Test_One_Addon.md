@@ -14,10 +14,10 @@ It is a fundamental form of parallel processing in which several programs run at
 Having multiple OS in one computer like Windows, Linux. 
 
 ###3.	**Multi-processing**
-It is the use of two or more centrdal processing units within a single computer system. 
+It is the use of two or more central processing units within a single computer system. 
 
 ####Example
-
+Quad core(4 processors) and dual core systems(2 processors)
 
 
 ###4.	**Multi-threading**
