@@ -44,18 +44,23 @@ It involves moving part of all of a process from main memory to disk. when none 
 
 ###6. Four characteristics of suspended process: 
 a. The process is not immediately available for execution.
+
 b. The process may or may not be waiting on an event. If it is, this blocked condition is independent of the suspend condition, and occurrence of the blocking event does not enable the process to be executed immediately. 
+
 c. The process was placed in a suspended state by an agent: either itself, a parent process, or the OS, for the purpose of preventing its execution.
 
 d. The process may not be removed from this state until the agent explicitly order’s the removal. 
 
 
 ###7. Three general categories of information in a process control block:  The three general categories of process control block information:
-a. Process Identification:  With respect to Process identification, in virtually all operating systems, each process is assigned a unique numeric identifier, which may simply be an index into the primary process table.
+a. Process Identification
+With respect to Process identification, in virtually all operating systems, each process is assigned a unique numeric identifier, which may simply be an index into the primary process table.
 
-b. Process state information: It consists of the contents of processor registers. While a process is running, of course, the information is in the registers. When a process is interrupted, all of this register information must be saved so that it can be restored when the process resumes execution. 
+b. Process state information
+It consists of the contents of processor registers. While a process is running, of course, the information is in the registers. When a process is interrupted, all of this register information must be saved so that it can be restored when the process resumes execution. 
 
-c. Process control information: This is the additional information needed by the OS to control and coordinate the various active process.
+c. Process control information
+This is the additional information needed by the OS to control and coordinate the various active process.
 
 
 ###8. Need of two modes i.e. user and kernel mode:  
@@ -66,14 +71,26 @@ We need these two modes to protect the OS and the key operating system tables, s
 
 
 ###9. Difference between an interrupt and a trap:
-Trap: It is an error or exception condition generated within the currently running process. With a trap, the OS determines if the error or exception condition is fatal.
-Interrupt:  Interrupt occurs due to some sort of event that is external to and independent of the currently running process. With an ordinary interrupt, control is first transferred to an interrupt handler, which does some basic housekeeping and then branches to an OS routine that is concerned with the particular type of interrupt that has occurred.
+Trap
+It is an error or exception condition generated within the currently running process. With a trap, the OS determines if the error or exception condition is fatal.
+
+Interrupt
+Interrupt occurs due to some sort of event that is external to and independent of the currently running process. With an ordinary interrupt, control is first transferred to an interrupt handler, which does some basic housekeeping and then branches to an OS routine that is concerned with the particular type of interrupt that has occurred.
 
 ###10. Three examples of interrupt:  The three examples of the interrupts are:
-a. Clock interrupt: The OS determines whether the currently running process has been executing for the maximum allowable unit of time, referred to as a time slice.
-b. I/O interrupt: The OS determines what I/O action has occurred, if the I/O action constitutes an event for which one or more processes are waiting, then the OS moves all of the corresponding blocked processes to the Ready state (and Blocked/Suspend processes to the Ready/Suspend state).
-c. Memory fault: The processor encounters a virtual memory address reference for a word that is not in main memory. The OS must bring in the block (page or segment) of memory containing the reference from secondary memory to main memory.
+a. Clock interrupt
+The OS determines whether the currently running process has been executing for the maximum allowable unit of time, referred to as a time slice.
 
-###11. Difference between mode switch and process switch:  
-Process switch: A process switch may occur any time that the OS has gained control from the currently running process. With a trap, the OS determines if the error or exception condition is fatal. If so, then the currently running process is moved to the Exit state and a process switch occurs. 
-Mode Switch: A mode switch may occur without changing the state of the process that is in the currently state. A running process is interrupted either by an interrupt, which is an event that occurs outside the process and that is recognize by the processor, or by executing a supervisor call to the OS. In either case, the processor performs a mode switch, transferring control to an operating system routine. The OS, after it has completed necessary work, may resume the interrupted process or switch to some other process.
+b. I/O interrupt
+The OS determines what I/O action has occurred, if the I/O action constitutes an event for which one or more processes are waiting, then the OS moves all of the corresponding blocked processes to the Ready state (and Blocked/Suspend processes to the Ready/Suspend state).
+
+c. Memory fault
+The processor encounters a virtual memory address reference for a word that is not in main memory. The OS must bring in the block (page or segment) of memory containing the reference from secondary memory to main memory.
+
+###11. Difference between mode switch and process switch
+
+Process switch
+A process switch may occur any time that the OS has gained control from the currently running process. With a trap, the OS determines if the error or exception condition is fatal. If so, then the currently running process is moved to the Exit state and a process switch occurs. 
+
+Mode Switch
+A mode switch may occur without changing the state of the process that is in the currently state. A running process is interrupted either by an interrupt, which is an event that occurs outside the process and that is recognize by the processor, or by executing a supervisor call to the OS. In either case, the processor performs a mode switch, transferring control to an operating system routine. The OS, after it has completed necessary work, may resume the interrupted process or switch to some other process.
