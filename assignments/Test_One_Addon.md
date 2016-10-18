@@ -1,7 +1,7 @@
 					         
-Test 1 Helper
+							
 Definitions:
-1.	**Multi-tasking**: It is a concept of performing multiple tasks over a certain period of time by executing them concurrently.
+**Multi-tasking**: It is a concept of performing multiple tasks over a certain period of time by executing them concurrently.
 Example: MultiFinder: It is an extension software for the Apple Macintosh’s classic Mac OS. It allows multiple application to be simultaneously resident in memory. A single mouse click switches between applications, and information from one application can be copied to another. 
 2.	**Multi-programming**: It is a fundamental form of parallel processing in which several programs run at the same time on the single processor. 
 
