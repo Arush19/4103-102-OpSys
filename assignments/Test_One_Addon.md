@@ -64,27 +64,27 @@ This is the additional information needed by the OS to control and coordinate th
 
 
 ###8. Need of two modes i.e. user and kernel mode:  
-User mode: The less privileged mode is often referred to as user mode, because user programs typically would execute in this mode.
+####User mode: The less privileged mode is often referred to as user mode, because user programs typically would execute in this mode.
 
-Kernel mode: The more-privileged mode is referred to as control mode, control mode or kernel mode. 
+####Kernel mode: The more-privileged mode is referred to as control mode, control mode or kernel mode. 
 We need these two modes to protect the OS and the key operating system tables, such as process control blocks, from interference from user programs.
 
 
 ###9. Difference between an interrupt and a trap:
-Trap
+####Trap
 It is an error or exception condition generated within the currently running process. With a trap, the OS determines if the error or exception condition is fatal.
 
-Interrupt
+####Interrupt
 Interrupt occurs due to some sort of event that is external to and independent of the currently running process. With an ordinary interrupt, control is first transferred to an interrupt handler, which does some basic housekeeping and then branches to an OS routine that is concerned with the particular type of interrupt that has occurred.
 
 ###10. Three examples of interrupt:  The three examples of the interrupts are:
-a. Clock interrupt
+####a. Clock interrupt
 The OS determines whether the currently running process has been executing for the maximum allowable unit of time, referred to as a time slice.
 
-b. I/O interrupt
+####b. I/O interrupt
 The OS determines what I/O action has occurred, if the I/O action constitutes an event for which one or more processes are waiting, then the OS moves all of the corresponding blocked processes to the Ready state (and Blocked/Suspend processes to the Ready/Suspend state).
 
-c. Memory fault
+####c. Memory fault
 The processor encounters a virtual memory address reference for a word that is not in main memory. The OS must bring in the block (page or segment) of memory containing the reference from secondary memory to main memory.
 
 ###11. Difference between process switch and mode switch
