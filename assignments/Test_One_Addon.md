@@ -53,21 +53,22 @@ d. The process may not be removed from this state until the agent explicitly ord
 
 
 ###7. Three general categories of information in a process control block:  The three general categories of process control block information:
-a. Process Identification
+####a. Process Identification
 With respect to Process identification, in virtually all operating systems, each process is assigned a unique numeric identifier, which may simply be an index into the primary process table.
 
-b. Process state information
+####b. Process state information
 It consists of the contents of processor registers. While a process is running, of course, the information is in the registers. When a process is interrupted, all of this register information must be saved so that it can be restored when the process resumes execution. 
 
-c. Process control information
+####c. Process control information
 This is the additional information needed by the OS to control and coordinate the various active process.
 
 
 ###8. Need of two modes i.e. user and kernel mode:  
-####User mode: The less privileged mode is often referred to as user mode, because user programs typically would execute in this mode.
+####User mode
+The less privileged mode is often referred to as user mode, because user programs typically would execute in this mode.
 
-####Kernel mode: The more-privileged mode is referred to as control mode, control mode or kernel mode. 
-We need these two modes to protect the OS and the key operating system tables, such as process control blocks, from interference from user programs.
+####Kernel mode
+The more-privileged mode is referred to as control mode, control mode or kernel mode.We need these two modes to protect the OS and the key operating system tables, such as process control blocks, from interference from user programs.
 
 
 ###9. Difference between an interrupt and a trap:
