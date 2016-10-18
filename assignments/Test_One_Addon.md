@@ -37,7 +37,8 @@ In general-purpose systems, some way is needed to create processes as needed dur
 
 ###3.  Preempting a process means a process which is executing and continue to execute, but it is taken over by the another process and is executed with higher priority.  
 
-###4. Swapping: It involves moving part of all of a process from main memory to disk. when none of the processes in main memory is in the Ready state, the OS swaps one of the blocked processes out on to disk into a suspend queue.
+###4. Swapping
+It involves moving part of all of a process from main memory to disk. when none of the processes in main memory is in the Ready state, the OS swaps one of the blocked processes out on to disk into a suspend queue.
 
 ###5.  Why does the figure 3.9b have two blocked states: 
 
@@ -57,8 +58,9 @@ b. Process state information: It consists of the contents of processor registers
 c. Process control information: This is the additional information needed by the OS to control and coordinate the various active process.
 
 
-###8. Need of two modes user and kernel mode:  
+###8. Need of two modes i.e. user and kernel mode:  
 User mode: The less privileged mode is often referred to as user mode, because user programs typically would execute in this mode.
+
 Kernel mode: The more-privileged mode is referred to as control mode, control mode or kernel mode. 
 We need these two modes to protect the OS and the key operating system tables, such as process control blocks, from interference from user programs.
 
