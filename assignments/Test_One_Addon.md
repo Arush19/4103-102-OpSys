@@ -1,22 +1,28 @@
 					         
 							
 ####Definitions:
-###1. **Multi-tasking**: It is a concept of performing multiple tasks over a certain period of time by executing them concurrently.
+###1. **Multi-tasking**
+It is a concept of performing multiple tasks over a certain period of time by executing them concurrently.
 Example: MultiFinder: It is an extension software for the Apple Macintosh’s classic Mac OS. It allows multiple application to be simultaneously resident in memory. A single mouse click switches between applications, and information from one application can be copied to another. 
-###2.	**Multi-programming**: It is a fundamental form of parallel processing in which several programs run at the same time on the single processor. 
+###2.	**Multi-programming** 
+It is a fundamental form of parallel processing in which several programs run at the same time on the single processor. 
 
 Example: 
 
-###3.	**Multi-processing**: It is the use of two or more centrdal processing 	units within a single computer system. 
+###3.	**Multi-processing**
+It is the use of two or more centrdal processing units within a single computer system. 
 
 Example: 
 
-###4.	**Multi-threading**: It is ability of an Operating system to support multiple, concurrent paths of execution within a single process. 
+###4.	**Multi-threading**
+It is ability of an Operating system to support multiple, concurrent paths of execution within a single process. 
 
 Example: 
 
 Answers to the questions: 
-###1.	**Instruction trace**:  The trace instruction controls trace activities associated with the current procedure.
+###1.	**Instruction trace**
+The trace instruction controls trace activities associated with the current procedure.
+
 The trace instruction has the following syntax variations:
 a.	trace setting: This establishes setting as the current setting of the trace activities.
 b.	trace [VALUE] setting expression: This establishes the value of settingExpression as the current setting of trace activities. The value keyword can be omitted in settingExpression does not begin with a symbol or literal string—i.e. it could start with a parenthesis.
@@ -28,11 +34,12 @@ In general-purpose systems, some way is needed to create processes as needed dur
 •	Execution of a process Creation System calls by a running process.
 •	A user request to create a new process.
 •	Initialization of a batch job.
-3.  Preempting a process means a process which is executing and continue to execute, but it is taken over by the another process and is executed with higher priority.  
+
+###3.  Preempting a process means a process which is executing and continue to execute, but it is taken over by the another process and is executed with higher priority.  
 
 ###4. Swapping: It involves moving part of all of a process from main memory to disk. when none of the processes in main memory is in the Ready state, the OS swaps one of the blocked processes out on to disk into a suspend queue.
 
-5.  Why does the figure 3.9b have two blocked states: 
+###5.  Why does the figure 3.9b have two blocked states: 
 
 ###6. Four characteristics of suspended process: 
 a. The process is not immediately available for execution.
