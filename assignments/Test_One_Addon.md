@@ -90,7 +90,9 @@ The processor encounters a virtual memory address reference for a word that is n
 ###11. Difference between mode switch and process switch
 
 Process switch
+
 A process switch may occur any time that the OS has gained control from the currently running process. With a trap, the OS determines if the error or exception condition is fatal. If so, then the currently running process is moved to the Exit state and a process switch occurs. 
 
 Mode Switch
+
 A mode switch may occur without changing the state of the process that is in the currently state. A running process is interrupted either by an interrupt, which is an event that occurs outside the process and that is recognize by the processor, or by executing a supervisor call to the OS. In either case, the processor performs a mode switch, transferring control to an operating system routine. The OS, after it has completed necessary work, may resume the interrupted process or switch to some other process.
