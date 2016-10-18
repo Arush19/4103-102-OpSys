@@ -23,12 +23,12 @@ Quad core(4 processors) and dual core systems(2 processors)
 ###4.	**Multi-threading**
 It is ability of an Operating system to support multiple, concurrent paths of execution within a single process. 
 
-Example: 
-Long running applications like batch jobs
+####Example: 
+1. Long running applications like batch jobs
 
-HTTP/JEE servers/frameworks like vert.x, wildfly, tomcat, jetty uses multithreads along with NIO to achieve high throughput.
+2.HTTP/JEE servers/frameworks like vert.x, wildfly, tomcat, jetty uses multithreads along with NIO to achieve high throughput.
 
-Computer games, exemplery multi-threaded processing.
+3.Computer games, exemplery multi-threaded processing.
 
 ##Review Questions From Chapters 3 
 ###1.	**Instruction trace**
