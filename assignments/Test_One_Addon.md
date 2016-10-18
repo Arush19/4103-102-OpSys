@@ -52,7 +52,7 @@ c. The process was placed in a suspended state by an agent: either itself, a par
 d. The process may not be removed from this state until the agent explicitly order’s the removal. 
 
 
-###7. Three general categories of information in a process control block:  The three general categories of process control block information:
+###7. Three general categories of information in a process control block
 ####a. Process Identification
 With respect to Process identification, in virtually all operating systems, each process is assigned a unique numeric identifier, which may simply be an index into the primary process table.
 
