@@ -1,7 +1,7 @@
 #Test-1 Helper	
 
 							
-####Definitions:
+####Define the following and give examples of each:
 ###1. **Multi-tasking**
 It is a concept of performing multiple tasks over a certain period of time by executing them concurrently.
 
@@ -30,7 +30,7 @@ HTTP/JEE servers/frameworks like vert.x, wildfly, tomcat, jetty uses multithread
 
 Computer games, exemplery multi-threaded processing.
 
-##Answers to the questions: 
+##Review Questions From Chapters 3 
 ###1.	**Instruction trace**
 The trace instruction controls trace activities associated with the current procedure.
 
